@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    overflow: hidden;
+}
+
+.item{
+   float: left;
+   background-color: rgb(28, 26, 61);
+   color: rgb(32, 206, 110);
+   padding: 100px 100px;
+   width: 25%;
+   text-align:center;
+   font-size: large;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.item:hover{
+    background-color: rgb(130, 140, 231);
+    color: rgb(0, 0, 0);
+    transition: 1.5s;
+}
+*{
+    box-sizing: border-box;
+}
+
+.noticia{
+    float: left;
+    background-color:rgb(28, 26, 61);
+    color:rgb(32, 206, 110);
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid  rgba(252, 252, 252, 0.479);
+
+}
+.n1{
+background-image: url("https://www.estadao.com.br/recomenda/wp-content/uploads/2023/05/kimberly-farmer-lUaaKCUANVI-unsplash.jpg");
+background-size: cover;
+padding-top: 100px;
+padding-left: 170px;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+
+.n2{
+background-image: url(https://img.freepik.com/fotos-gratis/vista-frontal-da-pilha-de-livros_23-2148827190.jpg?w=2000) ;
+background-size: cover;
+padding-top: 100px;
+padding-right: 170px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+}                                                        
+.noticia:hover{
+    background-color: rgb(130, 140, 231);
+    color:   rgb(0, 0, 0);
+    transition: 1.0s;
+}
+
+.romaneio{
+    float: left;
+    background-color: rgb(28, 26, 61);
+    color: rgb(17, 0, 255);
+    padding: 100px 100px;
+    width: 33.3%;
+    text-align:center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.romaneio:hover{
+    background-color: rgb(130, 140, 231);
+    color:   rgb(0, 0, 0);
+    transition: 1.0s;
+    padding:1xp;
+}
+
+.f1{
+    background-image: url(https://static.wixstatic.com/media/1df9f9_03e9a2e8a59745ad8a22d0fc9002b1a3~mv2.jpg/v1/fill/w_560,h_332,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/001%20low.jpg);
+    background-size: cover;
+    padding-top: 60px;
+    font-family: fantasy;
+    font-size: 35px;
+
+}
+.f2{
+    background-image: url(https://static.wixstatic.com/media/1df9f9_361fb619ec2a46b59db78e9db350a8f2~mv2.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    font-family: fantasy;
+    font-size: 35px;
+ 
+}
+
+.f3 {
+    background-image: url(https://static.wixstatic.com/media/1df9f9_052dd2c9d2f84dc6a96093a751c88379~mv2.jpg/v1/fill/w_640,h_430,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1df9f9_052dd2c9d2f84dc6a96093a751c88379~mv2.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    font-family:fantasy;
+    font-size: 35px;
+
+} 
+
